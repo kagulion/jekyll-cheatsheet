@@ -1,1 +1,1 @@
-# jekyll-cheatsheet
+# Шпаргалка по Jekyll
