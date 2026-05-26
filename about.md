@@ -1,15 +1,17 @@
 ---
 title: О проекте
 permalink: /about-us/
+layout: default
 skills:
   - HTML
   - CSS
   - JS
+aboutMe: I'm a hero
 ---
 
 # {{ page.title }}
 
-Это страница о проекте {{ site.title }}
+This is a website about {{ site.title }}
 
 ## My Skills
 
@@ -17,3 +19,5 @@ skills:
 
 - {{ skill }}
   {% endfor %}
+
+## About mew
