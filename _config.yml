@@ -2,3 +2,7 @@ title: Jekyll Cheatsheet
 authors:
   - KA
   - GU
+
+collections:
+  authors:
+    output: tru

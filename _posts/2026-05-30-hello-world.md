@@ -1,9 +1,15 @@
 ---
 layout: post
 title: "Мой первый пост"
-author: KAGU
+author: jill
 ---
 
-Привет! Это моя первая запись в блоге.
+{% assign author = site.authors | where: "short_name", page.author | first %}
 
-Здесь можно спокойно использовать **Markdown** для форматирования текста, делать списки и писать статьи. Jekyll сам превратит всё это в HTML.
+{% if author %}
+  <div class="author-card">
+    <strong>Автор: {{ author.name }}</strong> ({{ author.position }})
+  </div>
+{% endif %}
+
+{{ content }}
