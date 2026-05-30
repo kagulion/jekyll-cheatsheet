@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+  <p><small>Автор: {{ page.author }} | Дата: {{ page.date | date: "%B %d, %Y" }}</small></p>
+
+  {{ content }}
+</article>
