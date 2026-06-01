@@ -1,8 +1,43 @@
 ---
 ---
 
+@use "reset";
+@use "colors" as *;
 @use "navigation";
 
+$font-family: "Montserrat";
+
 body {
-  font-family: Arial, sans-serif;
+  width: auto;
+  font-family: $font-family;
+  background-color: $bg;
+}
+
+/* Каркас */
+
+.container {
+  margin: 0 auto;
+  max-width: 684px;
+  padding: 20px 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Цвета */
+
+h1 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 140%;
+  color: $primary;
 }
