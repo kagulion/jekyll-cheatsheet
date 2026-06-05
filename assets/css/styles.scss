@@ -5,12 +5,21 @@
 @use "colors" as *;
 @use "navigation";
 
+/* База */
+
 $font-family: "JetBrains Mono";
 
 body {
   width: auto;
   font-family: $font-family;
   background-color: $bg;
+}
+
+pre {
+  font-family: monospace;
+  white-space: pre;
+  line-height: 1.2;
+  overflow-x: auto;
 }
 
 /* Каркас */
@@ -22,6 +31,10 @@ body {
 
 .flex {
   display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .justify-between {
@@ -65,3 +78,5 @@ h1 {
     padding: 20px 16px;
   }
 }
+
+/* Хиро */
