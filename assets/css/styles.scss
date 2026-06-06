@@ -22,11 +22,18 @@ pre {
   overflow-x: auto;
 }
 
+p {
+  font-size: 16px;
+  line-height: 140%;
+  color: $black;
+}
+
 /* Каркас */
 
 .container {
   margin: 0 auto;
   max-width: 684px;
+  padding: 20px 16px;
 }
 
 .flex {
