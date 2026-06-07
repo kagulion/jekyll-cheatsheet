@@ -1,7 +1,7 @@
 ---
 title: Структура папок
 permalink: /structure/
-layout: default
+layout: post
 ---
 
 # {{ page.title }}

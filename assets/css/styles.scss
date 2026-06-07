@@ -79,7 +79,7 @@ h1 {
   }
 }
 
-/* --- Секции --- */
+/* --- Инклуды --- */
 
 /* Шапка */
 
@@ -158,3 +158,20 @@ h1 {
     }
   }
 }
+
+/* Назад */
+
+.back {
+  margin-bottom: 24px;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: $gray-dark;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+/* --- Секции --- */
