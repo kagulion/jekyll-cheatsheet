@@ -5,9 +5,8 @@ plugins:
 
 title: Jekyll Cheatsheet
 authors:
-  - KA
-  - GU
+  - KAGU
 
 collections:
   authors:
-    output: tru
+    output: true
