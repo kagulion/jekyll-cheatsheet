@@ -13,12 +13,13 @@ body {
   width: auto;
   font-family: $font-family;
   background-color: $bg;
+  height: 100%;
 }
 
 pre {
   font-family: monospace;
   white-space: pre;
-  line-height: 1.2;
+  line-height: 120%;
   overflow-x: auto;
 }
 
@@ -30,7 +31,14 @@ p {
 
 /* Каркас */
 
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .container {
+  flex: 1 0 auto;
   margin: 0 auto;
   max-width: 684px;
   padding: 20px 16px;
@@ -86,4 +94,27 @@ h1 {
   }
 }
 
-/* Хиро */
+/* Футер */
+
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+  border-top: 1px solid $gray;
+  background-color: $gray-light;
+
+  &__container {
+    max-width: 684px;
+    margin: 0 auto;
+    padding: 20px 16px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 140%;
+  }
+
+  span {
+    font-size: 12px;
+    line-height: 140%;
+  }
+}
