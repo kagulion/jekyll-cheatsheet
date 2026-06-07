@@ -1,0 +1,46 @@
+.prose {
+  h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: $black;
+  }
+
+  p {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: $black;
+
+    a {
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      color: $primary;
+    }
+  }
+
+  /* Блоки кода */
+  pre {
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px 0;
+    overflow-x: auto;
+    background-color: $code;
+
+    code {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: $black;
+
+      .c {
+        font-weight: 400;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 140%;
+        color: $gray-dark;
+      }
+    }
+  }
+}
