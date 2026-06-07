@@ -1,7 +1,12 @@
 <nav>
-  {% for item in site.data.navigation %}
-  <a href="{{ item.link }}" {% if page.url==item.link %}style="color: red;" {% endif %}>
-    {{ item.name }}
-  </a>
-  {% endfor %}
+  <ul class="navigation">
+    {% for item in site.data.navigation %}
+      <li class="navigation__item">
+        <span>{{ forloop.index }}</span>
+        <a href="{{ item.link }}" class="transition-sm" >
+        {{ item.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </nav>

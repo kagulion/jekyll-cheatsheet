@@ -1,6 +1,12 @@
-- name: Home
-  link: /
-- name: About
-  link: /about-us/
-- name: Press
-  link: /press/
+- name: Установка и запуск
+  link: /install/
+- name: Структура папок
+  link: /structure/
+- name: Front Matter
+  link: /front-matter/
+- name: Github Pages
+  link: /github-pages/
+- name: Jekyll Github
+  link: /jekyll-github/
+- name: Основы Liquid
+  link: /liquid/

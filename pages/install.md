@@ -1,6 +1,6 @@
 ---
-title: О проекте
-permalink: /about-us/
+title: Установка и запуск
+permalink: /install/
 layout: default
 skills:
   - HTML
