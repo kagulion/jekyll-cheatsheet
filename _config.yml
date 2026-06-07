@@ -1,12 +1,5 @@
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
 
 title: Jekyll Cheatsheet
-authors:
-  - KAGU
-
-collections:
-  authors:
-    output: true
