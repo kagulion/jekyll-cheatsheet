@@ -3,7 +3,7 @@
     {% for item in site.data.navigation %}
       <li class="navigation__item">
         <span>{{ forloop.index }}</span>
-        <a href="{{ item.link }}" class="transition-sm" >
+        <a href="{{ item.link | relative_url }}" class="transition-sm" >
         {{ item.name }}
         </a>
       </li>
